@@ -1,0 +1,83 @@
+{
+  "name": "rn_cospace",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "set NODE_OPTIONS=--openssl-legacy-provider && react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@miblanchard/react-native-slider": "^2.0.2",
+    "@react-native-async-storage/async-storage": "^1.15.13",
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "@types/react-native-calendars": "^1.1264.3",
+    "@types/react-native-snap-carousel": "^3.8.5",
+    "@ui-kitten/components": "^5.1.1",
+    "@ui-kitten/eva-icons": "^5.1.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "i18next": "^21.5.3",
+    "lodash": "^4.17.21",
+    "react": "17.0.2",
+    "react-hook-form": "^7.20.4",
+    "react-i18next": "^11.14.3",
+    "react-native": "0.65.0-rc.0",
+    "react-native-calendars": "^1.1269.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-gifted-chat": "^0.16.3",
+    "react-native-image-picker": "^4.3.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-maps": "0.29.3",
+    "react-native-modalize": "^2.0.12",
+    "react-native-permissions": "^3.1.0",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "^0.17.5",
+    "react-native-web-refresh-control": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.177",
+    "@types/react-native": "^0.66.4",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-app-rewired": "^2.1.8",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
